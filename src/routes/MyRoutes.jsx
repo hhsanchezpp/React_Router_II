@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import HomePage from "../pages/HomePage/HomePage"
 import PokemonesPage from "../pages/PokemonesPage/PokemonesPage"
-import NotFoundPage from "../pages/NotFoundPage/NotFoundPage"
 import DetallesPage from "../pages/DetallesPage/DetallesPage"
 
 const MyRoutes = () => {
