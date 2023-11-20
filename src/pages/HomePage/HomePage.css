@@ -1,0 +1,24 @@
+.home_page_container {
+    background-color: rgb(246, 241, 241);
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+}
+@media (min-width: 768px) {
+    .home_page_container h1 {
+        font-size: 5rem;
+    }
+}
+
+.home_page_container img {
+    width: 30rem;
+}
+@media (min-width: 768px) {
+    .home_page_container img {
+        width: 40rem;
+    }
+}
